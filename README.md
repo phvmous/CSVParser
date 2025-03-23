@@ -21,7 +21,7 @@ To use the CSV parser helper function, simply call the `Parser.parseLine()` stat
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/phvmous/CSVParser.git
+   git clone https://github.com/phvmous/Parser.git
 2. **Run the code**:
    ```java
    String sampleCSVLine = "96022760,2021-07-05 09:29:19,A,NWC OF 24TH & OXFORD ST,53912171,SR   ,VACANT LAND RESIDE < ACRE,1 ,Single Family,139,Y,,,94.0,188045.0,0.0,1,,16.0,A,,,B ,29,0,,2334 ,1,2334 W OXFORD ST,,,,PHILADELPHIA PA,,19121,263000.0,,,3,10,1,,,BONDS ISHAKEA,,291113044,E,,2021-12-08 00:00:00,012N110470,2021-08-06 00:00:00,263000.0,,,,PA  ,62120,ST  ,W,OXFORD,,0.0,74955.0,F,1542.0,1242.0,A,,,,,2019,,19121,RSA5,1001680150,-75.17420968317221,39.979125733577334"
@@ -29,4 +29,4 @@ To use the CSV parser helper function, simply call the `Parser.parseLine()` stat
    ArrayList<String> data = Parser.parseLine(sampleCSVLine);
 
 Contributing
-Feel free to fork this repository and submit issues or pull requests if you find any bugs or would like to suggest improvements. Contributions are welcome!
+Feel free to fork this repository and submit issues or pull requests if you find any bugs or would like to suggest improvements.
