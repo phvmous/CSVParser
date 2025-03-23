@@ -17,7 +17,7 @@ This focus on performance was not just about optimizing for speed but also about
 
 ## How to Use
 
-To use the CSV parser helper function, simply call the `Parse.parseLine()` static function, providing a string line as the parameter. The function returns a list of strings, where each index of the list denotes the respective column of the CSV file.
+To use the CSV parser helper function, simply call the `Parser.parseLine()` static function, providing a string line as the parameter. The function returns a list of strings, where each index of the list denotes the respective column of the CSV file.
 
 1. **Clone the repository**:
    ```bash
