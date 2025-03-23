@@ -4,7 +4,7 @@
 
 The core project is designed to parse and analyze Covid-19 datasets from the Philadelphia Department of Public Health (PDPH). The goal is to track and compute insightful data, including vaccinations, deaths, per capita statistics based on ZIP code, and total market values. The program supports parsing datasets in both **JSON** and **CSV** file formats and is optimized for performance with a time complexity of **O(n)**.
 
-The project design is based on the **Model-View-Controller (MVC)** architecture, which ensures modularity, scalability, and maintainability. For best practice, I incorporated conventional design patterns, such as **Singleton** for logging user activity and **Memoization** for efficient computation. The current code sample shared in this repository is a **CSV parsing helper function** written in **Java**. This function was a crucial part of the project, as it efficiently parses large CSV files while handling challenges like escaping double and single quotes in the data.
+The project design is based on the **Model-View-Controller (MVC)** architecture, which ensures modularity, scalability, and maintainability. For best practice, I incorporated conventional design patterns, such as **Singleton** for logging user activity and **Memoization** for efficient computation. The current code sample shared in this repository is a **CSV parser helper function** written in **Java**. This function was a crucial part of the project, as it efficiently parses large CSV files while handling challenges like escaping double and single quotes in the data.
 
 ### Optimization:
 Instead of using regular expressions, which would have introduced higher time complexity, I chose to parse each character of the string manually. This approach allowed me to maintain an **O(n)** time complexity while ensuring that the dataset was processed in an efficient manner.
@@ -13,7 +13,7 @@ Instead of using regular expressions, which would have introduced higher time co
 
 Parsing large CSV files efficiently was a critical part of the project. Given the size of the Covid-19 datasets (often over 1GB), it was essential to process them quickly and without running into memory or performance bottlenecks. By choosing to manually handle string parsing rather than relying on regular expressions, I was able to make sure that the parsing process remained linear in time complexity (O(n)).
 
-This focus on performance was not just about optimizing for speed but also about ensuring that the data could be processed without issues when working with real-world large datasets. The **CSV parsing helper function** exemplifies my approach to data processing, where efficiency and scalability are the primary concerns.
+This focus on performance was not just about optimizing for speed but also about ensuring that the data could be processed without issues when working with real-world large datasets. The **CSV parser helper function** exemplifies my approach to data processing, where efficiency and scalability are the primary concerns.
 
 ## How to Use
 
