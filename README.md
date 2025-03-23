@@ -28,5 +28,5 @@ To use the CSV parser helper function, simply call the `Parser.parseLine()` stat
 
    ArrayList<String> data = Parser.parseLine(sampleCSVLine);
 
-Contributing
+## Contributing
 Feel free to fork this repository and submit issues or pull requests if you find any bugs or would like to suggest improvements.
